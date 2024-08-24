@@ -5,3 +5,6 @@ mvn -Pnative spring-boot:build-image
 ```
 minikube start --cpus=4 --memory=4096
 ```
+```
+minikube image load web:0.0.1-SNAPSHOT
+```
