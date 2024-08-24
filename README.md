@@ -15,7 +15,7 @@ kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
 ```
 ```
-kubectl apply -f storage-pvc.yaml
+kubectl apply -f k8s/storage-pvc.yaml
 ```
 ```
 kubectl port-forward svc/spring-boot-service 8080:8080
