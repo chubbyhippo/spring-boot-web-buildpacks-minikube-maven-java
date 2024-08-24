@@ -8,3 +8,6 @@ minikube start --cpus=4 --memory=4096
 ```
 minikube image load web:0.0.1-SNAPSHOT
 ```
+```
+kubectl apply -f k8s/deployment.yaml
+```
